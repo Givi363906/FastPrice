@@ -1,11 +1,10 @@
-package com.amixenstudio.test;
+package com.chaquo.fastprice;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.chaquo.python.PyObject;
 import com.chaquo.python.Python;
 import com.chaquo.python.android.AndroidPlatform;
 
@@ -21,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (! Python.isStarted())
             Python.start(new AndroidPlatform(this));
-
+/*
         Python py = Python.getInstance();
 
         PyObject py_file = py.getModule("Test"); //name file
@@ -29,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
         PyObject obj = py_file.callAttr("test"); // def name
 
         txt.setText(obj.toString());
+
+ */
+
+
     }
 }

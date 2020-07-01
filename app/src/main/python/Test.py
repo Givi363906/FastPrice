@@ -1,2 +1,5 @@
-def test():
-    return ("Ну, чё ты там живой?")
+import requests
+
+def main():
+    def check():
+        requests.get('')

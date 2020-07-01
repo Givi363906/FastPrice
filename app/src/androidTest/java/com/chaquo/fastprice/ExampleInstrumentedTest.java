@@ -1,4 +1,4 @@
-package com.amixenstudio.test;
+package com.chaquo.fastprice;
 
 import android.content.Context;
 
